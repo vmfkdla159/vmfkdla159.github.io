@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body class="back">
+    <form class="login hidden">
+      <p>What is your name?</p>
+      <input type="text" class="login-id" placeholder="write your name" />
+    </form>
+    <main class="main hidden">
+      <div class="side-left">
+        <form action="" class="favorite-link-form">
+          <input
+            type="text"
+            class="favorite-link-input"
+            placeholder="Add your favorite link"
+            required
+          />
+        </form>
+        <div class="link-all"></div>
+      </div>
+      <div class="main-main">
+        <div class="clock"></div>
+        <h1 class="title"></h1>
+      </div>
+      <div class="side-right">
+        <div class="todo-box">
+          <form action="" class="todo-form">
+            <input
+              type="text"
+              class="todo-input"
+              placeholder="Write your todo list"
+              required
+            />
+          </form>
+          <ul class="todo-list"></ul>
+        </div>
+        <div class="weather_api">
+          <span class="city"></span>
+          <span class="weather"></span>
+          <span class="weather_img"></span>
+          <span class="temp"></span>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <span class="quote"></span>
+      <span class="author"></span>
+    </footer>
+    <script src="src/js/background.js"></script>
+    <script src="src/js/clock.js"></script>
+    <script src="src/js/link.js"></script>
+    <script src="src/js/login.js"></script>
+    <script src="src/js/quotes.js"></script>
+    <script src="src/js/todo.js"></script>
+    <script src="src/js/weather.js"></script>
+  </body>
+</html>

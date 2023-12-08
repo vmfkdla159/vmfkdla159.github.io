@@ -1,0 +1,21 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+}
+
+.login-id {
+  all: unset;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.login-id::placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}

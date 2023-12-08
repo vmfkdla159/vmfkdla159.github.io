@@ -1,0 +1,11 @@
+.weather_api {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather_img {
+  font-size: 35px;
+}
